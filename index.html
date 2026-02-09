@@ -245,7 +245,7 @@ if(taps===3){adminModal.style.display='flex';taps=0;}
 }});
 
 adminBtn.onclick=()=>{
-if(adminPass.value==='root'){
+if(adminPass.value==='SUDO SH'){
 sessionStorage.setItem('adminAccess','granted');
 window.location.href='admin.html';
 }else adminErr.style.display='block';
@@ -254,5 +254,6 @@ window.location.href='admin.html';
 </script>
 </body>
 </html>
+
 
 
